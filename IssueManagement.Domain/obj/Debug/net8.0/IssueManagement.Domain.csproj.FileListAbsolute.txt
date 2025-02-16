@@ -1,0 +1,13 @@
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\bin\Debug\net8.0\IssueManagement.Domain.deps.json
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\bin\Debug\net8.0\IssueManagement.Domain.dll
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\bin\Debug\net8.0\IssueManagement.Domain.pdb
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.AssemblyInfo.cs
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.sourcelink.json
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.dll
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\refint\IssueManagement.Domain.dll
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.pdb
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\ref\IssueManagement.Domain.dll
+C:\Users\admin\source\repos\IssueManagement\IssueManagement.Domain\obj\Debug\net8.0\IssueManagement.Domain.csproj.AssemblyReference.cache

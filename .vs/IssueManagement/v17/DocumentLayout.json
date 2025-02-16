@@ -1,0 +1,434 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\admin\\source\\repos\\IssueManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\issues\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\issues\\issueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\accounts\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\accounts\\accountservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\infrastructure\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\infrastructure\\middlewares\\errorhandlingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\extensions\\serviceextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\extensions\\errorhandlingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\extensions\\errorhandlingextension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\issues\\interfaces\\iissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\issues\\interfaces\\iissueservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{329A02CB-42EA-4AAA-A9E2-469BF24496C5}|IssueManagement.Domain\\IssueManagement.Domain.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.domain\\models\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{329A02CB-42EA-4AAA-A9E2-469BF24496C5}|IssueManagement.Domain\\IssueManagement.Domain.csproj|solutionrelative:issuemanagement.domain\\models\\issue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\usernotfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\usernamealreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\usernamealreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\statusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\statusexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\registrationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\registrationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\issuenonexistentexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\issuenonexistentexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\invalidpasswordexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\invalidpasswordexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\emailalreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\emailalreadyexistsexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\duedateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\duedateexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\exceptions\\confirmationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\exceptions\\confirmationexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\controllers\\issuecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77C075EC-9886-45BA-969F-5F8223BE50A4}|IssueManagement.Persistence\\IssueManagement.Persistence.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77C075EC-9886-45BA-969F-5F8223BE50A4}|IssueManagement.Persistence\\IssueManagement.Persistence.csproj|solutionrelative:issuemanagement.persistence\\configurations\\userconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement\\infrastructure\\models\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F474D9CA-602C-4A02-B8A4-70A5C8565F3F}|IssueManagement\\IssueManagement.csproj|solutionrelative:issuemanagement\\infrastructure\\models\\errordetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\accounts\\requests\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\accounts\\requests\\resetpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\users\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|c:\\users\\admin\\source\\repos\\issuemanagement\\issuemanagement.application\\accounts\\requests\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3717ECE7-E1BE-4BA8-B827-CBBB00A44E4A}|IssueManagement.Application\\IssueManagement.Application.csproj|solutionrelative:issuemanagement.application\\accounts\\requests\\loginrequestmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1321981186:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Accounts\\AccountService.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Accounts\\AccountService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Accounts\\AccountService.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Accounts\\AccountService.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAYwLEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T23:45:18.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IIssueService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Issues\\interfaces\\IIssueService.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Issues\\interfaces\\IIssueService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Issues\\interfaces\\IIssueService.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Issues\\interfaces\\IIssueService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T12:09:58.888Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IssueService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Issues\\IssueService.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Issues\\IssueService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Issues\\IssueService.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Issues\\IssueService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:53:29.187Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ErrorHandlingExtension.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Extensions\\ErrorHandlingExtension.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Extensions\\ErrorHandlingExtension.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Extensions\\ErrorHandlingExtension.cs",
+              "RelativeToolTip": "IssueManagement\\Extensions\\ErrorHandlingExtension.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwCMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T15:10:26.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceExtension.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Extensions\\ServiceExtension.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Extensions\\ServiceExtension.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Extensions\\ServiceExtension.cs",
+              "RelativeToolTip": "IssueManagement\\Extensions\\ServiceExtension.cs",
+              "ViewState": "AgIAADwAAAAAAAAAAAAMwE0AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T13:50:08.496Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorHandlingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Infrastructure\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Infrastructure\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Infrastructure\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "RelativeToolTip": "IssueManagement\\Infrastructure\\Middlewares\\ErrorHandlingMiddleware.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAgwG4AAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T15:25:44.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Issue.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Domain\\Models\\Issue.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Domain\\Models\\Issue.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Domain\\Models\\Issue.cs",
+              "RelativeToolTip": "IssueManagement.Domain\\Models\\Issue.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:06:10.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UserNotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\UserNotFoundException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\UserNotFoundException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\UserNotFoundException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\UserNotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:56.234Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UsernameAlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\UsernameAlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:51.195Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "StatusException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\StatusException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\StatusException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\StatusException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\StatusException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:49.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegistrationException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\RegistrationException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\RegistrationException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\RegistrationException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\RegistrationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:16.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "IssueNonExistentException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\IssueNonExistentException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\IssueNonExistentException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\IssueNonExistentException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\IssueNonExistentException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:12.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "InvalidPasswordException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\InvalidPasswordException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\InvalidPasswordException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\InvalidPasswordException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\InvalidPasswordException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:07.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "EmailAlreadyExistsException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\EmailAlreadyExistsException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:05:04.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ConfirmationException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\ConfirmationException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\ConfirmationException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\ConfirmationException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\ConfirmationException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:04:58.619Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DueDateException.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\DueDateException.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Exceptions\\DueDateException.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Exceptions\\DueDateException.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Exceptions\\DueDateException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T17:04:03.783Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IssueController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Controllers\\IssueController.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Controllers\\IssueController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Controllers\\IssueController.cs",
+              "RelativeToolTip": "IssueManagement\\Controllers\\IssueController.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAowDsAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:48:50.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Persistence\\Configurations\\UserConfiguration.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Persistence\\Configurations\\UserConfiguration.cs",
+              "RelativeToolTip": "IssueManagement.Persistence\\Configurations\\UserConfiguration.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:22:23.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IssueManagement\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEUAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T16:32:04.762Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Controllers\\UserController.cs",
+              "RelativeToolTip": "IssueManagement\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T22:39:59.738Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ResetPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Accounts\\Requests\\ResetPasswordRequest.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Accounts\\Requests\\ResetPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Accounts\\Requests\\ResetPasswordRequest.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Accounts\\Requests\\ResetPasswordRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T14:08:45.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorDetails.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Infrastructure\\Models\\ErrorDetails.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Infrastructure\\Models\\ErrorDetails.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Infrastructure\\Models\\ErrorDetails.cs",
+              "RelativeToolTip": "IssueManagement\\Infrastructure\\Models\\ErrorDetails.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T15:13:43.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Program.cs",
+              "RelativeDocumentMoniker": "IssueManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement\\Program.cs",
+              "RelativeToolTip": "IssueManagement\\Program.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T15:23:56.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "LoginRequestModel.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Accounts\\Requests\\LoginRequestModel.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Accounts\\Requests\\LoginRequestModel.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Accounts\\Requests\\LoginRequestModel.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Accounts\\Requests\\LoginRequestModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T00:50:34.594Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Users\\UserService.cs",
+              "RelativeDocumentMoniker": "IssueManagement.Application\\Users\\UserService.cs",
+              "ToolTip": "C:\\Users\\admin\\source\\repos\\IssueManagement\\IssueManagement.Application\\Users\\UserService.cs",
+              "RelativeToolTip": "IssueManagement.Application\\Users\\UserService.cs",
+              "ViewState": "AgIAADgAAAAAAAAAAAAkwDkAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-15T18:23:20.268Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
