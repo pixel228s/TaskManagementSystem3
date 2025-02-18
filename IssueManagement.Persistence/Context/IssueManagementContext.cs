@@ -1,4 +1,5 @@
-﻿using IssueManagement.Domain.Models;
+﻿using IssueManagement.Domain.Enums;
+using IssueManagement.Domain.Models;
 using IssueManagement.Persistence.Configurations;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
