@@ -2,7 +2,7 @@
 
 namespace IssueManagement.Domain.Enums
 {
-    public enum Status
+    public enum StatusTypes
     {
         ToDo = 1,
         InProgress,

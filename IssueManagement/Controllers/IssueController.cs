@@ -41,14 +41,14 @@ namespace IssueManagement.Controllers
         }
 
         [HttpGet("status/{status}")]
-        public async Task<ActionResult<IssueResponse>> GetIssuesByStatus(Status status, CancellationToken cancellationToken)
+        public async Task<ActionResult<IssueResponse>> GetIssuesByStatus(StatusTypes status, CancellationToken cancellationToken)
         {
             var issue = await _issueService.GetIssuesByStatus(status, cancellationToken);
             return Ok(issue);
         }
 
         [HttpGet("priority/{priority}")]
-        public async Task<ActionResult<IssueResponse>> GetIssuesByPriority(Priority priority, CancellationToken cancellationToken)
+        public async Task<ActionResult<IssueResponse>> GetIssuesByPriority(PriorityTypes priority, CancellationToken cancellationToken)
         {
             var issue = await _issueService.GetIssuesByPriority(priority, cancellationToken);   
             return Ok(issue);

@@ -1,7 +1,7 @@
 ﻿
 namespace IssueManagement.Domain.Enums
 {
-    public enum Priority
+    public enum PriorityTypes
     {
         Low = 1,
         Medium,

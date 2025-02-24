@@ -57,11 +57,7 @@ namespace IssueManagement.Application.Users
 
         public async Task<UserResponseModel> UpdateAsync(UserUpdateModel updateModel, int id, CancellationToken cancellationToken)
         {
-            //var claimsId = Convert.ToInt32(ClaimTypes.NameIdentifier);
-            //if(id != claimsId)
-            //{
-            //    throw new ActionNotAllowedException();
-            //}
+
             var user = await _userRepository.GetByIdAsync(id, cancellationToken);
 
             if (updateModel.UserName != null)

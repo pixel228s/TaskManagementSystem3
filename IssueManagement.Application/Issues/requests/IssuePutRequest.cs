@@ -6,9 +6,8 @@ namespace IssueManagement.Application.Issues.requests
         public string? Title { get; set; }
         public string? Description { get; set; }
         public int? UserId { get; set; }
-        public Priority Priority { get; set; }
+        public PriorityTypes? Priority { get; set; }
         public DateTime? DueDate { get; set; }
-        public DateTime? CompletionDate { get; set; }
-        public Status? Status { get; set; }
+        public StatusTypes? Status { get; set; }
     }
 }

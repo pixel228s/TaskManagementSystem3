@@ -11,8 +11,8 @@ namespace IssueManagement.Application.Issues.interfaces
         Task DeleteIssue(int id, CancellationToken cancellationToken);
         Task<IssueResponse> GetIssue(int id, CancellationToken cancellationToken);
         Task<List<IssueResponse?>?> GetIssuesByTitle(string titleSubstring, CancellationToken cancellationToken);
-        Task<List<IssueResponse?>?> GetIssuesByPriority(Priority priority, CancellationToken cancellationToken);
-        Task<List<IssueResponse?>?> GetIssuesByStatus(Status status, CancellationToken cancellationToken);
+        Task<List<IssueResponse?>?> GetIssuesByPriority(PriorityTypes priority, CancellationToken cancellationToken);
+        Task<List<IssueResponse?>?> GetIssuesByStatus(StatusTypes status, CancellationToken cancellationToken);
         Task<List<IssueResponse?>?> GetIssuesAscendingOrdByPriority(CancellationToken cancellationToken);
         Task<IssueResponse?> FindIssueById(int id, CancellationToken cancellationToken);  
         Task<List<IssueResponse>?> FindIssuesByUserId(int userId, CancellationToken cancellationToken);

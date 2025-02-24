@@ -41,17 +41,17 @@ namespace IssueManagement.Infrastructure.Issues
                 .ToListAsync(cancellationToken);
         }
 
-        public async Task<List<Issue>?> GetIssuesByPriority(Priority priority, CancellationToken cancellationToken)
+        public async Task<List<Issue>?> GetIssuesByPriority(PriorityTypes priority, CancellationToken cancellationToken)
         {
             return await _dbSet
-                .Where(x => x.Priority == priority)
+                .Where(x => x.PriorityID == (int)priority)
                 .ToListAsync(cancellationToken);
         }
 
-        public async Task<List<Issue>?> GetIssuesByStatus(Status status, CancellationToken cancellationToken)
+        public async Task<List<Issue>?> GetIssuesByStatus(StatusTypes status, CancellationToken cancellationToken)
         {
             return await _dbSet
-                .Where(x => x.Status == status)
+                .Where(x => x.StatusId == (int)status)
                 .ToListAsync(cancellationToken);
         }
 

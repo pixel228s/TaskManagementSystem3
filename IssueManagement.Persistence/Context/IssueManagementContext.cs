@@ -18,9 +18,13 @@ namespace IssueManagement.Persistence.Context
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            
 
             modelBuilder.Entity<User>().ToTable("Users");
             modelBuilder.Entity<Issue>().ToTable("Issues");
+
+            modelBuilder.Entity<Priority>().ToTable("Priorities");
+            modelBuilder.Entity<Status>().ToTable("Statuses");
 
             modelBuilder.Ignore<IdentityUserToken<int>>();
             modelBuilder.Ignore<IdentityUserLogin<int>>();
@@ -29,6 +33,8 @@ namespace IssueManagement.Persistence.Context
 
             modelBuilder.ApplyConfiguration(new IssueConfiguration());
             modelBuilder.ApplyConfiguration(new UserConfiguration());
+            modelBuilder.ApplyConfiguration(new StatusConfiguration());
+            modelBuilder.ApplyConfiguration(new PriorityConfiguration());
         }
     }
 }

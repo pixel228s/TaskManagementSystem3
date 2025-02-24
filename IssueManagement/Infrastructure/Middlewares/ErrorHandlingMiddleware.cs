@@ -1,5 +1,6 @@
 ﻿using IssueManagement.Application.Exceptions;
 using Microsoft.AspNetCore.Mvc;
+using System.Data;
 using System.Net;
 using System.Text.Json;
 
@@ -74,7 +75,7 @@ namespace IssueManagement.Infrastructure.Middlewares
 
                 case EmailAlreadyExistsException:
                     problemDetails.Title = "Email already exists.";
-                    problemDetails.Status = (int)HttpStatusCode.NotFound;
+                    problemDetails.Status = (int)HttpStatusCode.Conflict;
                     problemDetails.Type = nameof(EmailAlreadyExistsException);
                     break;
 
@@ -110,7 +111,7 @@ namespace IssueManagement.Infrastructure.Middlewares
 
                 case UsernameAlreadyExistsException:
                     problemDetails.Title = "User already exists.";
-                    problemDetails.Status = (int)HttpStatusCode.BadRequest;
+                    problemDetails.Status = (int)HttpStatusCode.Conflict;
                     problemDetails.Type = nameof(UsernameAlreadyExistsException);
                     break;
 
@@ -124,6 +125,12 @@ namespace IssueManagement.Infrastructure.Middlewares
                     problemDetails.Title = "Due date can not be set";
                     problemDetails.Status = (int)HttpStatusCode.BadRequest;
                     problemDetails.Type = nameof(DueDateException);
+                    break;
+
+                case ConstraintException:
+                    problemDetails.Title = "Key constrint error occured";
+                    problemDetails.Status = (int)HttpStatusCode.BadRequest;
+                    problemDetails.Type = nameof(ConstraintException);
                     break;
 
             }

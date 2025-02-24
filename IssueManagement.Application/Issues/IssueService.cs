@@ -25,7 +25,7 @@ namespace IssueManagement.Application.Issues
                 Description = request.Description,
                 UserId = request.UserId,
                 CreatedAt = DateTime.UtcNow,
-                Priority = request.Priority,
+                PriorityID = request.PriorityId,
                 DueDate = request.DueDate ?? DateTime.MaxValue,
             };
 
@@ -72,13 +72,13 @@ namespace IssueManagement.Application.Issues
             return issues.Adapt<List<IssueResponse?>?>();
         }
 
-        public async Task<List<IssueResponse?>?> GetIssuesByPriority(Priority priority, CancellationToken cancellationToken)
+        public async Task<List<IssueResponse?>?> GetIssuesByPriority(PriorityTypes priority, CancellationToken cancellationToken)
         {
             var issues = await _issueRepository.GetIssuesByPriority(priority, cancellationToken);
             return issues.Adapt<List<IssueResponse?>?>();
         }
 
-        public async Task<List<IssueResponse?>?> GetIssuesByStatus(Status status, CancellationToken cancellationToken)
+        public async Task<List<IssueResponse?>?> GetIssuesByStatus(StatusTypes status, CancellationToken cancellationToken)
         {
             var issues = await _issueRepository.GetIssuesByStatus(status, cancellationToken);
             return issues.Adapt<List<IssueResponse?>?>();
@@ -109,13 +109,13 @@ namespace IssueManagement.Application.Issues
 
             if (request.Status != null)
             {
-                if (issue.Status == Status.ToDo && request.Status == Status.InProgress)
+                if (issue.StatusId ==(int)StatusTypes.ToDo && request.Status == StatusTypes.InProgress)
                 {
-                    issue.Status = request.Status;
+                    issue.StatusId = (int)request.Status;
                 }
-                else if (issue.Status == Status.InProgress && request.Status == Status.Completed)
+                else if (issue.StatusId == (int)StatusTypes.InProgress && request.Status == StatusTypes.Completed)
                 {
-                    issue.Status = request.Status;
+                    issue.StatusId = (int)request.Status;
                     issue.CompletionDate = DateTime.UtcNow;
                 }
                 else
@@ -124,10 +124,15 @@ namespace IssueManagement.Application.Issues
                 }
             }
 
+            if(request.Priority != null)
+            {
+                issue.PriorityID = (int)request.Priority;
+            }
+
+
             issue.Title = request.Title ?? issue.Title;
             issue.Description = request.Description ?? issue.Description;
-            issue.DueDate = request.DueDate;
-            issue.Priority = request.Priority;
+            issue.DueDate = request.DueDate;           
             issue.UserId = request.UserId ?? issue.UserId;
 
             await _issueRepository.UpdateIssue(issue, cancellationToken);
