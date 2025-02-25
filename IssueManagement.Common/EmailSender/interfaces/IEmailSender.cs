@@ -1,5 +1,4 @@
-﻿
-namespace IssueManagement.Application.EmailSender.interfaces
+﻿namespace IssueManagement.Application.EmailSender.interfaces
 {
     public interface IEmailSender
     {

@@ -1,5 +1,4 @@
-﻿
-namespace IssueManagement.Domain.Enums
+﻿namespace IssueManagement.Domain.Enums
 {
     public enum PriorityTypes
     {

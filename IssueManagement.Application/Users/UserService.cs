@@ -5,7 +5,6 @@ using IssueManagement.Application.Users.Responses;
 using IssueManagement.Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
-using System.Security.Claims;
 namespace IssueManagement.Application.Users
 {
     public sealed class UserService : IUserService

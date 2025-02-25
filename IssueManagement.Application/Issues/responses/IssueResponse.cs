@@ -1,6 +1,4 @@
 ﻿using IssueManagement.Domain.Enums;
-using IssueManagement.Domain.Models;
-
 namespace IssueManagement.Application.Issues.responses
 {
     public class IssueResponse

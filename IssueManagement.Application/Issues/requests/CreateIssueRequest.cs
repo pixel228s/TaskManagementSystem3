@@ -1,7 +1,4 @@
-﻿using IssueManagement.Domain.Enums;
-using IssueManagement.Domain.Models;
-
-namespace IssueManagement.Application.Issues.requests
+﻿namespace IssueManagement.Application.Issues.requests
 {
     public class CreateIssueRequest
     {
