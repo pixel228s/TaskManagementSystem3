@@ -27,6 +27,7 @@ namespace IssueManagement
 
             builder.Services.RegisterMaps();
             builder.Services.AddEndpointsApiExplorer();
+            builder.Services.AddCustomValidations();
 
             builder.UseSwaggerConfiguration();
 

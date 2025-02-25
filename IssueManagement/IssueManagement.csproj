@@ -29,8 +29,4 @@
     <ProjectReference Include="..\IssueManagement.Persistence\IssueManagement.Persistence.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Infrastructure\Validations\Issues\" />
-  </ItemGroup>
-
 </Project>

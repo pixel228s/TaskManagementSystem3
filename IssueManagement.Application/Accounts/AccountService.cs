@@ -1,12 +1,12 @@
 ﻿using IssueManagement.Application.Accounts.Interfaces;
 using IssueManagement.Application.Accounts.Requests;
+using IssueManagement.Application.EmailSender.interfaces;
 using IssueManagement.Application.Exceptions;
 using IssueManagement.Application.Users.Responses;
 using IssueManagement.Domain.Models;
 using Mapster;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Logging;
-using IssueManagement.Application.EmailSender.interfaces;
 
 
 namespace IssueManagement.Application.Accounts
@@ -42,6 +42,23 @@ namespace IssueManagement.Application.Accounts
             }
 
             return user.Adapt<UserResponseModel>();
+        }
+
+        public async Task ResendCode(ResendCodeRequest request)
+        {
+
+            var user = await _userManager.FindByEmailAsync(request.Email);
+            if(user == null)
+            {
+                throw new UserNotFoundException("Inavlid Email.");
+            }
+
+            if (_userManager.Options.SignIn.RequireConfirmedAccount)
+            {
+                _logger.LogInformation("Token generation started for user {Email}", user.Email);
+                var code = _userManager.GenerateTwoFactorTokenAsync(user, "Email");
+                await _emailSender.SendEmailAsync(request.Email, subject: "Otp", code.Result);
+            }
         }
 
         public async Task ConfirmEmail(ConfirmEmailRequest request)
@@ -129,8 +146,9 @@ namespace IssueManagement.Application.Accounts
                     return user.Adapt<UserResponseModel>();
                 }
             }
-
-            throw new RegistrationException();
+            
+            var errorMessages = string.Join(", ", result.Errors.Select(e => e.Description));
+            throw new RegistrationException(errorMessages);          
         }
 
         public async Task ResetPasswordAsync(ResetPasswordRequest request)

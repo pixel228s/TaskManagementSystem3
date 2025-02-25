@@ -6,13 +6,14 @@ using IssueManagement.Application.Issues;
 using IssueManagement.Application.Issues.interfaces;
 using IssueManagement.Application.Users;
 using IssueManagement.Application.Users.Interfaces;
-using IssueManagement.Common.CustomTokenProviders;
 using IssueManagement.Domain.Models;
+using IssueManagement.Infrastructure.CustomTokenProviders;
 using IssueManagement.Infrastructure.Issues;
 using IssueManagement.Infrastructure.Users;
 using IssueManagement.Persistence.Context;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using System.Reflection;
 namespace IssueManagement.Extensions

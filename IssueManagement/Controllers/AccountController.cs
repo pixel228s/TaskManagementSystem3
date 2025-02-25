@@ -30,7 +30,7 @@ namespace IssueManagement.Controllers
         {
             var user = await _accountService.AuthenticateAsync(loginRequest);
             return Ok(new
-            { 
+            {
                 accessToken = JWTAuth.GenerateJwt(user, _configuration)
             });
         }
@@ -69,6 +69,13 @@ namespace IssueManagement.Controllers
         {
             var user = await _accountService.NewPasswordAsync(request);
             return Ok(user);
+        }
+
+        [HttpPost("resend-code")]
+        public async Task<IActionResult> ResendCodeToConfirm([FromBody] ResendCodeRequest request)
+        {
+            await _accountService.ResendCode(request);
+            return Ok();
         }
     }
 }

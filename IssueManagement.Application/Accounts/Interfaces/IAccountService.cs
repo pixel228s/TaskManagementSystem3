@@ -11,6 +11,7 @@ namespace IssueManagement.Application.Accounts.Interfaces
         Task<UserResponseModel> ChangePasswordAsync(ChangePasswordRequest request);
         Task ResetPasswordAsync(ResetPasswordRequest request);
         Task<UserResponseModel> NewPasswordAsync(NewPasswordRequest request);
+        Task ResendCode(ResendCodeRequest request);
 
     }
 }
