@@ -121,12 +121,6 @@ namespace IssueManagement.Infrastructure.Middlewares
                     problemDetails.Type = nameof(UserNotFoundException);
                     break;
 
-                case DueDateException:
-                    problemDetails.Title = "Due date can not be set";
-                    problemDetails.Status = (int)HttpStatusCode.BadRequest;
-                    problemDetails.Type = nameof(DueDateException);
-                    break;
-
                 case ConstraintException:
                     problemDetails.Title = "Key constrint error occured";
                     problemDetails.Status = (int)HttpStatusCode.BadRequest;

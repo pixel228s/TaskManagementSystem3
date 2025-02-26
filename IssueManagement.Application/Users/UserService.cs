@@ -20,7 +20,6 @@ namespace IssueManagement.Application.Users
         public async Task DeleteAsync(int id, CancellationToken cancellationToken)
         {
             var user = await _userRepository.GetByIdAsync(id, cancellationToken);
-
             if(user == null)
             {
                 throw new UserNotFoundException();

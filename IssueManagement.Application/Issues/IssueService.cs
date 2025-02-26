@@ -2,6 +2,7 @@
 using IssueManagement.Application.Issues.interfaces;
 using IssueManagement.Application.Issues.requests;
 using IssueManagement.Application.Issues.responses;
+using IssueManagement.Application.Users.Interfaces;
 using IssueManagement.Domain.Enums;
 using IssueManagement.Domain.Models;
 using Mapster;
@@ -11,10 +12,12 @@ namespace IssueManagement.Application.Issues
     public class IssueService : IIssueService
     {
         private readonly IIssueRepository _issueRepository;
+        private readonly IUserRepository _userRepository;
 
-        public IssueService(IIssueRepository issueRepository)
+        public IssueService(IIssueRepository issueRepository, IUserRepository userRepository)
         {
             _issueRepository = issueRepository;
+            _userRepository = userRepository;
         }
 
         public async Task<IssueResponse> CreateIssue(CreateIssueRequest request, CancellationToken cancellationToken)
@@ -56,7 +59,12 @@ namespace IssueManagement.Application.Issues
 
         public async Task<List<IssueResponse>?> FindIssuesByUserId(int userId, CancellationToken cancellationToken)
         {
-            //var user = await _
+            var user = await _userRepository.GetByIdAsync(userId, cancellationToken);
+            if(user == null)
+            {
+                throw new UserNotFoundException();
+            }
+
             var issues = await _issueRepository.GetUserIssues(userId, cancellationToken);
             return issues.Adapt<List<IssueResponse>?>(); 
         }
