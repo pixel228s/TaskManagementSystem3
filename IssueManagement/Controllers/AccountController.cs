@@ -2,13 +2,12 @@
 using IssueManagement.Application.Accounts.Requests;
 using IssueManagement.Application.Users.Responses;
 using IssueManagement.Infrastructure.Auth;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
 
 namespace IssueManagement.Controllers
 {
-    [AllowAnonymous]
+
     [Route("api/[controller]")]
     [ApiController]
     public class AccountController : ControllerBase
@@ -25,7 +24,6 @@ namespace IssueManagement.Controllers
         [HttpPost("authenticate")]
         [SwaggerOperation(Summary = "Logs in a user")]
         [SwaggerResponse(200, "User logged in successfully")]
-        [SwaggerResponse(401, "Unauthorized. Invalid login credentials")]
         public async Task<IActionResult> authenticate([FromBody] LoginRequestModel loginRequest)
         {
             var user = await _accountService.AuthenticateAsync(loginRequest);

@@ -14,6 +14,7 @@ using IssueManagement.Persistence.Context;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Serilog;
 using System.Reflection;
 namespace IssueManagement.Extensions
 {
@@ -95,6 +96,17 @@ namespace IssueManagement.Extensions
         {
             services.AddFluentValidationAutoValidation();
             services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+        }
+
+        public static WebApplicationBuilder AddSerilog(this WebApplicationBuilder builder)
+        {
+            Log.Logger = new LoggerConfiguration()
+                .ReadFrom
+                .Configuration(builder.Configuration)
+                .CreateLogger();
+
+            builder.Host.UseSerilog(); 
+            return builder;
         }
     }
 }

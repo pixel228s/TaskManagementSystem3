@@ -30,8 +30,7 @@ namespace IssueManagement
             builder.Services.AddCustomValidations();
 
             builder.UseSwaggerConfiguration();
-
-
+            builder.AddSerilog();
             builder.AddDbConnection();
 
             var app = builder.Build();

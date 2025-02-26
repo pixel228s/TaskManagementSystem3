@@ -47,11 +47,16 @@ namespace IssueManagement.Application.Issues
         public async Task<IssueResponse?> FindIssueById(int id, CancellationToken cancellationToken)
         {
             var issue = await _issueRepository.GetIssueById(id, cancellationToken);
+            if(issue == null)
+            {
+                throw new IssueNonExistentException();
+            }
             return issue.Adapt<IssueResponse>();
         }
 
         public async Task<List<IssueResponse>?> FindIssuesByUserId(int userId, CancellationToken cancellationToken)
         {
+            //var user = await _
             var issues = await _issueRepository.GetUserIssues(userId, cancellationToken);
             return issues.Adapt<List<IssueResponse>?>(); 
         }
@@ -97,14 +102,6 @@ namespace IssueManagement.Application.Issues
             if (issue == null)
             {
                 throw new IssueNonExistentException();
-            }
-
-            if(request.DueDate != null)
-            {
-                if(request.DueDate < DateTime.UtcNow)
-                {
-                    throw new DueDateException();
-                }
             }
 
             if (request.Status != null)
