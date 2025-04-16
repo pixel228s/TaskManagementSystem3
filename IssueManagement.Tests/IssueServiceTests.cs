@@ -2,7 +2,6 @@
 using IssueManagement.Application.Exceptions;
 using IssueManagement.Application.Issues;
 using IssueManagement.Application.Issues.interfaces;
-using IssueManagement.Application.Issues.requests;
 using IssueManagement.Application.Users.Interfaces;
 using IssueManagement.Domain.Enums;
 using IssueManagement.Domain.Models;
