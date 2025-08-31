@@ -66,7 +66,7 @@ namespace IssueManagement.Application.Users
                     throw new UsernameAlreadyExistsException();
                 }
 
-                user.UserName = updateModel.UserName;
+                user!.UserName = updateModel.UserName;
             }
 
             if (updateModel.Email != null)
@@ -77,7 +77,7 @@ namespace IssueManagement.Application.Users
                     throw new EmailAlreadyExistsException();
                 }
 
-                user.Email = updateModel.Email;
+                user!.Email = updateModel.Email;
             }
 
             await _userRepository.UpdateUserAsync(user, cancellationToken);

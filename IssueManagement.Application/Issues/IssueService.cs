@@ -22,16 +22,8 @@ namespace IssueManagement.Application.Issues
 
         public async Task<IssueResponse> CreateIssue(CreateIssueRequest request, CancellationToken cancellationToken)
         {
-            var issue = new Issue
-            {
-                Title = request.Title,
-                Description = request.Description,
-                UserId = request.UserId,
-                CreatedAt = DateTime.UtcNow,
-                PriorityID = request.PriorityId,
-                DueDate = request.DueDate ?? DateTime.MaxValue,
-            };
-
+            var issue = request.Adapt<Issue>();
+            issue.CreatedAt = DateTime.Now;
             await _issueRepository.CreateIssue(issue, cancellationToken);
             return issue.Adapt<IssueResponse>();
         }

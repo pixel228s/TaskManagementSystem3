@@ -127,13 +127,8 @@ namespace IssueManagement.Application.Accounts
                 throw new UsernameAlreadyExistsException();
             }
 
-            var user = new User
-            {
-                Email = request.Email,
-                UserName = request.UserName,
-                CreatedOn = DateTime.UtcNow,
-                IsDeleted = false,
-            };
+            var user = request.Adapt<User>();
+            user.CreatedOn = DateTime.Now;
             var result = await _userManager.CreateAsync(user, request.Password);
 
             if (result.Succeeded)

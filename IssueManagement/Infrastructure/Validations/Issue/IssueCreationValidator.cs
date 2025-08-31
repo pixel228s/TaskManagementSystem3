@@ -10,7 +10,7 @@ namespace IssueManagement.Infrastructure.Validations.Issue
         {
 
             RuleFor(d => d.DueDate)
-                .Must(date => date > DateTime.UtcNow)
+                .Must(date => date > DateTime.Now)
                 .WithMessage("Due date can not be set to the past.");
 
             RuleFor(d => d.Title)

@@ -1,4 +1,6 @@
-﻿using IssueManagement.Application.Issues.responses;
+﻿using IssueManagement.Application.Accounts.Requests;
+using IssueManagement.Application.Issues.requests;
+using IssueManagement.Application.Issues.responses;
 using IssueManagement.Application.Users.Responses;
 using IssueManagement.Domain.Models;
 using Mapster;
@@ -17,6 +19,14 @@ namespace IssueManagement.Infrastructure.Mappings
             TypeAdapterConfig<Issue, IssueResponse>
              .NewConfig()
              .TwoWays();
+
+            TypeAdapterConfig<CreateIssueRequest, Issue>
+                .NewConfig()
+                .TwoWays();
+
+            TypeAdapterConfig<RegisterRequestModel, User>
+                .NewConfig()
+                .TwoWays();
 
         }
     }
